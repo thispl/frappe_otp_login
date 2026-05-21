@@ -30,7 +30,9 @@ app_license = "mit"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/otp_login/css/otp_login.css"
-# web_include_js = "/assets/otp_login/js/otp_login.js"
+web_include_js = [
+    "/assets/frappe_otp_login/js/login_button.js"
+]
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "otp_login/public/scss/website"
