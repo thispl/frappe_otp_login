@@ -33,6 +33,7 @@ app_license = "mit"
 web_include_js = [
     "/assets/frappe_otp_login/js/login_button.js"
 ]
+signup_form_template = "otp_login/templates/signup.html"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "otp_login/public/scss/website"
