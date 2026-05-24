@@ -35,7 +35,8 @@
         <div class="form-group">
             <label class="form-label sr-only" for="signup_password">{{ _("Password") }}</label>
             <div class="password-field">
-                <input style="padding-left: 8px;" type="password" id="signup_password" class="form-control" placeholder="•••••"
+                <input style="padding-left: 8px;" type="password" id="signup_password" class="form-control" placeholder="•••••" minlength="8"
+                    title="Password must be at least 8 characters"
                     autocomplete="new-password" required>
                 <span toggle="#signup_password" class="toggle-password text-muted">{{ _('Show') }}</span>
             </div>
