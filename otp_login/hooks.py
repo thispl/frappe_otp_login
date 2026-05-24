@@ -31,7 +31,7 @@ app_license = "mit"
 # include js, css files in header of web template
 # web_include_css = "/assets/otp_login/css/otp_login.css"
 web_include_js = [
-    "/assets/frappe_otp_login/js/login_button.js"
+    "/assets/otp_login/js/login.js",
 ]
 signup_form_template = "otp_login/templates/signup.html"
 
